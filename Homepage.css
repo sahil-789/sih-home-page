@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+body{
+    /* background: radial-gradient(circle,
+     rgba(209,209,209,1) 62%,
+     rgba(178,178,178,1) 100%); */
+     font-family: "Poppins", sans-serif;
+}
+.container-1{
+    position: relative;
+    border: 1x solid black;
+    background-color: #212c34;
+    padding: 7px 5px;
+    margin: -8px -7px;
+    height: 102px;
+    width: 101%;
+    left: -2px;
+    margin-bottom: 31px;
+
+}
+   
+
+.item{
+    list-style: none;
+    display: inline-block;
+    margin: -2px;
+    
+}
+.left{
+  border: 1px solid black;
+  display: inline block;
+  position: absolute;
+  padding: 47px;
+}
+ #img{
+    position: absolute;
+    height: 98px;
+    width: 350px;
+    top: -7px;
+    left: -5px;
+    left: -5px;
+    /* border-left: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    padding-top: 41px;
+    padding-left: 21px;
+}
+.mid{  
+    display: block;
+     /* border: 2px solid black;   */
+   width: 50%;
+    margin: 24px 388px;
+}
+.navbar-1{
+    
+    padding: 5px 5px 5px 24px;
+}
+.navbar-1 li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 21px;
+  font-size: 26px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 2px;
+}
+    
+
+.navbar-1 li a:hover{
+      /* text-decoration: underline;*/
+      background-color: white;
+    border-radius: 25px;
+    color: black;
+} 
+.item a:active{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+}
+
+
+
+    
+.box img{
+    width: 100vw;
+    height: 70vh;
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2rem;
+  margin-top: 31px;
+}
+.bx{
+  /* border: 1px solid black; */
+  padding-left: 92px;
+  padding-top: 5px;
+  padding-right: 64px;
+}
+.grid img{
+  width: 297px;
+    height: 190px;
+}
+.grid p{
+  font-family: 'Roboto', sans-serif;
+    color: #3d3737;
+    padding: 5px;
+}
+.grid a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #18ba60;
+  padding: 5px;
+}
+  
+.grid a:hover{
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px rgb(197 203 196);
+}
+

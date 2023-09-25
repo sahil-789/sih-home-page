@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalReach</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>  
+    
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="INDEX.JS">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+            <li class="sign nav-item">
+                <button class="white btn btn-outline-success" type="submit">Sign In</button>
+              </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Find a Lawyer" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+
+        
+            <img class="mb-4" src="legal reach (1).png" alt="" width="200" height="180">
+            <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+            <div class="btns">
+            <button class="signupbtn" id="clientbtn"type="submit" onclick="onClickClient()">Client - Sign Up</button>
+            <button class="signupbtn" id="lawyerbtn" type="submit" onclick="onClickLawyer()">Lawyer - Sign Up</button>
+            </div>
+            </div>
+        <script>
+            document.getElementById("clientbtn").addEventListener("click", function() {
+             window.location.href = "clientsignup.html"});
+             document.getElementById("lawyerbtn").addEventListener("click", function() {
+             window.location.href = "lawyersignup.html"});
+             
+        </script>
+</body>
+</html>

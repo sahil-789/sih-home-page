@@ -2,7 +2,7 @@ body{
     background-color: ;
 }
 
-.container{
+.signupbox{
     text-align: center;
     height: 300px;
     width: 400px;
@@ -18,7 +18,7 @@ body{
 .active{
     text-shadow:white;
 }
-.nav-item{
+.dhruv{
    
     box-shadow: 10px;
     margin-top: 0px;
@@ -110,15 +110,88 @@ body{
 }
 
 .albumu{
-    margin-right: 800px;
-    margin-top: 600px;
+    text-align: center;
+    margin-right: 1500px;
+    margin-top: 1000px;
     width: 1000px;
 
 
 
     display: flex;
     align-items: center;
-    margin-right: 900px;
-    margin-top: 600px;
+    margin-right: 1500px;
+    margin-top: 1175px;
     width: 1000px;
+}
+
+.dhr{
+    margin-bottom: -20px;
+}
+
+.alkasa{
+    box-sizing:
+}
+
+.boxsmall{
+    padding-left: 80px;
+    width:80%;
+}
+
+.textoo{
+    margin-bottom: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.boxmodel{
+    margin-bottom: 30px;
+}
+
+.cardsettings{
+    border-color: grey;
+    width:320px
+}
+
+#card1alignment{
+    border-color: grey;
+    border-radius: 10px;
+    box-shadow: 20px;
+    margin-left: 215px;
+}
+
+#card2alignment{
+margin-left: 110px;
+padding-right: 0px;
+}
+
+
+#card3alignment{
+   margin-right: 40px;
+
+ }
+
+ .fonts{
+    font-family:serif;
+ }
+
+.lawyerbox{
+    text-align: left;
+    font-size: 20px;
+}
+
+.lawyertext{
+    text-align: right;
+    font-size: 18px;
+}
+
+.footerset{
+    margin-left: 100px;
+}
+
+#footer{
+    margin-left: -100px;
+}
+
+.lastone{
+    margin-left: 120px;
 }

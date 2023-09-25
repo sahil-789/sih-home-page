@@ -1,0 +1,215 @@
+body{
+    background-color: ;
+}
+
+.signupbox{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top:27%;
+    left: 38%;
+}
+
+.container-fluid{
+    background-color: #215585;
+    
+}
+.active{
+    text-shadow:white;
+}
+.dhruv{
+   
+    box-shadow: 10px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: white;
+
+}
+.searchbar{
+    height: 50px;
+}
+.btn{
+    color:white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.white{
+    color:white;
+}
+
+.nav-link{
+    color:white;
+}
+
+.dropdown-toggle{
+    width:200px;
+}
+
+.form-control{
+    width:350px;
+    height: 50px;
+}
+
+.gradient-background{
+ 
+    background: linear-gradient(300deg, #9ecbdb, #b07a82, #d18237);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.navbar{
+    padding: 0px;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magenta{
+    
+    height: 15em;
+    width: 22em;
+}
+
+.green{
+   
+    width: 22em;
+
+}
+
+.yellow{
+   
+    width: 22em;
+
+}
+
+.flex-container{
+    padding-top: 20px;
+
+}
+
+.blue{
+    
+    width: 22em;
+
+}
+
+#carouselExampleDark{
+    width:50%;
+    height:20%;
+    margin-left: 338px;
+}
+
+.albumu{
+    text-align: center;
+    margin-right: 1500px;
+    margin-top: 1000px;
+    width: 1000px;
+
+
+
+    display: flex;
+    align-items: center;
+    margin-right: 1500px;
+    margin-top: 1175px;
+    width: 1000px;
+}
+
+.dhr{
+    margin-bottom: -20px;
+}
+
+.alkasa{
+    box-sizing:
+}
+
+.boxsmall{
+    padding-left: 80px;
+    width:80%;
+}
+
+.textoo{
+    margin-bottom: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.boxmodel{
+    margin-bottom: 30px;
+}
+
+.cardsettings{
+    border-color: grey;
+    width:320px
+}
+
+#card1alignment{
+    border-color: grey;
+    border-radius: 10px;
+    box-shadow: 20px;
+    margin-left: 215px;
+}
+
+#card2alignment{
+margin-left: 110px;
+padding-right: 0px;
+}
+
+
+#card3alignment{
+   margin-right: 40px;
+
+ }
+
+ .fonts{
+    font-family:serif;
+ }
+
+.lawyerbox{
+    text-align: left;
+    font-size: 20px;
+}
+
+.lawyertext{
+    text-align: right;
+    font-size: 18px;
+}
+
+.footerset{
+    margin-left: 100px;
+}
+
+#footer{
+    margin-left: -100px;
+}
+
+.lastone{
+    margin-left: 120px;
+}
+
+.f1{
+    margin-left: 139px;
+    width: 132px;
+}
+.f2{
+    margin-left: 126px;
+}
+.f3{
+    margin-left: 27px;
+}
+.f4{
+    margin-left: -16px;
+    margin-top: -4px;
+}
+#img{
+
+}

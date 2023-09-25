@@ -1,0 +1,144 @@
+body{
+    background-color: ;
+}
+
+.container{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top:18%;
+    left: 38%;
+}
+
+.container-fluid{
+    background-color: #215585;
+    
+}
+.active{
+    text-shadow:white;
+}
+.nav-item{
+   
+    box-shadow: 10px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: white;
+
+}
+.searchbar{
+    height: 50px;
+}
+.btn{
+    color:white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    margin-top: 15px;
+    
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+.white{
+    color:white;
+}
+
+.nav-link{
+    color:white;
+}
+
+.dropdown-toggle{
+    width:200px;
+}
+
+.form-control{
+    width:350px;
+    height: 50px;
+}
+
+.gradient-background{
+ 
+    background: linear-gradient(300deg, #9ecbdb, #b07a82, #d18237);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.navbar{
+    padding: 0px;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.magenta{
+    
+    height: 15em;
+    width: 22em;
+}
+
+.green{
+   
+    width: 22em;
+
+}
+
+.yellow{
+   
+    width: 22em;
+
+}
+
+.flex-container{
+    padding-top: 20px;
+
+}
+
+.blue{
+    
+    width: 22em;
+
+}
+
+#carouselExampleDark{
+    width:50%;
+    height:20%;
+    margin-left: 338px;
+}
+
+.albumu{
+    margin-right: 800px;
+    margin-top: 600px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-right: 900px;
+    margin-top: 600px;
+    width: 1000px;
+}
+
+.frm{
+    margin: 8px;
+}
+#floatingnumber{
+    margin-left: 0px;
+}
+.bio{
+    
+}
+#floatingimage{
+
+}
+#floatingcertificate{
+
+}
+
+
